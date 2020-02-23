@@ -1,4 +1,4 @@
-//Project euler problem 8 solution in c
+ //Project euler problem 8 solution in c
 /*
 	
 The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
@@ -67,6 +67,7 @@ int main(void){
 		if(maxproduct<product){
 			maxproduct=product;
 		}
+		product = 1;
 		footter++;
 		
 	}
